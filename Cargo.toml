@@ -1,0 +1,12 @@
+[package]
+name = "example"
+version = "0.1.0"
+authors = ["Radovan Bast <bast@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name = "account"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.1"
